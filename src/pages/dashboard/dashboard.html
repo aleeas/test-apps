@@ -1,0 +1,49 @@
+<!--
+  Generated template for the DashboardPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-content class="tutorial-page dashboard-slider">
+	<ion-slides pager>
+	    <ion-slide *ngFor="let slide of slides">
+	      <img [src]="slide.image" class="slide-image"/>
+	    </ion-slide>
+    </ion-slides>
+    <div class="grid-background">
+    <div class="menus-grid" [navPush]="myprofilePage" (click)="presentLoading()">
+    	<ion-icon ios="ios-person" md="md-person"></ion-icon> 
+    	My Profile
+	</div>
+	<div class="menus-grid" [navPush]="nilaiPage" (click)="presentLoading()">
+    	<ion-icon ios="ios-document" md="md-document"></ion-icon>
+    	Nilai
+	</div>
+	<div class="menus-grid">
+    	<ion-icon ios="ios-paper" md="md-paper"></ion-icon> 
+    	Absensi
+	</div>
+	<div class="menus-grid">
+    	<ion-icon ios="ios-notifications" md="md-notifications"></ion-icon> 
+    	Pengumuman
+	</div>
+   <!--  <ion-grid>
+	  <ion-row>
+	    <ion-col col-xl-3 col-sm-6 text-center>
+	    	
+	    </ion-col>
+	    <ion-col col-xl-3 col-sm-6 text-center>
+	    	
+	    </ion-col>
+	    <ion-col col-xl-3 col-sm-6 text-center>
+	    	
+	    </ion-col>
+
+	    <ion-col col-xl-3 col-sm-6 text-center>
+	    	
+	    </ion-col>
+	    
+	  </ion-row>	  
+	</ion-grid> -->
+	</div>
+</ion-content>

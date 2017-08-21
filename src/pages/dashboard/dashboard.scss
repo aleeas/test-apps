@@ -1,0 +1,37 @@
+.tutorial-page.dashboard-slider .slide-image {
+    max-height: 50%;
+    max-width: 100%;
+    margin: 18px 0 0;
+  }
+
+ .tutorial-page.dashboard-slider .slide-zoom {
+    height:auto;
+  }
+  .tutorial-page.dashboard-slider ion-slides{
+  	height:55%;
+  }
+ .menus-grid{
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 100%;
+    padding: 15px 10px;
+    max-width: 110px;
+    width: 110px;
+    display: inline-block;
+    height: 110px;
+    margin: 10px;
+    vertical-align: middle;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    cursor: pointer;
+
+    ion-icon{
+	    font-size: 5rem;
+	    width: 100%;
+    }
+ }
+ .grid-background{
+ 	background:	url("../assets/img/preview_soft-green.jpg")no-repeat;
+ 	background-size:cover;
+ 	height:auto;
+ 	text-align:center;
+ }

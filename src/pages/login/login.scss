@@ -1,0 +1,67 @@
+.logoStyles{
+    text-align: center;
+    font-size: 9rem;
+    position: relative;
+    z-index: 10;
+    color: #fff;
+}
+.backgLogin{
+	background:url("../assets/img/school-2531985_640.jpg") no-repeat;
+	background-position:center;
+	background-size:cover;
+	height:100%;
+	position:relative;
+	padding:50px 0;
+}
+
+.backgLogin .item-md{
+	background-color:transparent;
+}
+.overlayer{
+	position:absolute;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.8);
+	top:0;
+	left:0;
+}
+
+.wrapper-login .item-input .label-md{
+	font-size:3rem;
+	width:30px;
+}
+.wrapper-login input.text-input{
+	color:#fff;
+}
+.yellow-btn{
+	background-color:#dece0b;
+}
+.yellow-btn:hover:not(.disable-hover){
+	background-color:#eae409;
+}
+
+.wrapper-login .item-md.item-input.item-input-has-focus .item-inner,
+.item-md.item-input.input-has-focus .item-inner {
+  border-bottom-color: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.wrapper-login .list-md .item-input.item-input-has-focus:last-child,
+.list-md .item-input.input-has-focus:last-child {
+   border-bottom-color: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.wrapper-login .list-md .item-block .item-inner {
+	border:none;
+    padding: 0 10px;
+    background: #000;
+    opacity: .5;
+    margin-bottom:10px;
+}
+.wrapper-login a.forgot-text{
+	color:#ddd;
+	text-decoration:none;
+}
